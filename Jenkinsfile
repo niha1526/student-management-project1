@@ -13,7 +13,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'YOUR_GITHUB_REPOSITORY_URL'
+                git branch: 'main', url: 'https://github.com/niha1526/student-management-project1.git'
             }
         }
 
